@@ -51,6 +51,12 @@ Canon's words back at the end of the take and reads them back to prove the resto
 - `sheets/`: result sheets.
 - `template/`: the sheet generator (`navy_sheet.py`) and two example specs.
 
+## Credits
+
+- **Navy**: project lead, camera testing, the Navy tables.
+- **Codex (OpenAI)**: firmware / ROM research (encoder banks, table locations) and design reviews.
+- **Claude (Anthropic)**: camera test builds, table analysis, result sheets.
+
 ## Thanks
 
 Feedback from the Magic Lantern Discord (names_are_hard, WalterSchulz, thebilalfakhouri) shaped the tests.
