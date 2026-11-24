@@ -1,0 +1,8 @@
+frame,scene,bit_depth,canon_table_bytes,navy_table_bytes,saving_pct,source
+RC0140,indoor darker,12,4592980,3706616,-19.30,camera (TEST 97b) bit-exact
+RC0141,balcony with railing,12,4729169,4263684,-9.84,camera (TEST 100) bit-exact
+RC0142,balcony sharp detail,12,4935673,4814724,-2.45,camera (TEST 100) bit-exact
+TEST91,indoor dark,10,4232000,2222000,-47.5,camera (TEST 91) bit-exact (rounded sizes)
+RC0140,indoor darker,10,4271000,2330000,-45.4,PC camera-encoder model (byte-identical to the camera at 12-bit)
+RC0141,balcony with railing,10,4392000,2775000,-36.8,PC camera-encoder model
+RC0142,balcony sharp detail,10,4477000,3271000,-26.9,PC camera-encoder model

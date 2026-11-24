@@ -1,0 +1,94 @@
+{
+ "title": "Canon 7D Mark II, Magic Lantern 5x 1:1 lossless RAW: balcony, daylight, sharp detail",
+ "tag": "TEST 100  /  RC0142  /  2026-11-24",
+ "block": {
+  "type": "bars",
+  "title": "Frame size by format",
+  "unit": "MB",
+  "pct_of": 9.134,
+  "xmax": 10.5,
+  "rows": [
+   [
+    "14-bit uncompressed",
+    9.134,
+    0
+   ],
+   [
+    "12-bit uncompressed",
+    7.829,
+    0
+   ],
+   [
+    "10-bit uncompressed",
+    6.524,
+    0
+   ],
+   [
+    "14-bit lossless  (Canon table)",
+    5.844,
+    0
+   ],
+   [
+    "12-bit lossless  (Canon table)",
+    4.936,
+    0
+   ],
+   [
+    "12-bit lossless  (Navy 12-bit table)",
+    4.815,
+    1
+   ],
+   [
+    "10-bit lossless  (Canon table)",
+    4.477,
+    0
+   ],
+   [
+    "10-bit lossless  (Navy 10-bit table)",
+    3.271,
+    1
+   ]
+  ],
+  "subtitle": "This exact frame, MB per 3872 x 1348 frame; % of 14-bit uncompressed.",
+  "axis": "MB per frame"
+ },
+ "specs": [
+  [
+   "Sensor readout",
+   "5x 1:1, 3872 x 1348 window"
+  ],
+  [
+   "Recording",
+   "native 12-bit lossless, 24p"
+  ],
+  [
+   "12-bit sizes",
+   "measured by the camera"
+  ],
+  [
+   "14 / 10-bit sizes",
+   "camera-encoder model"
+  ]
+ ],
+ "note": "All numbers from one 5x 1:1 frame (3872 x 1348, balcony, daylight, sharp detail). 12-bit lossless sizes measured by the camera; 14-bit and 10-bit lossless\nvia the camera-encoder model (byte-identical to the camera at 12-bit). Uncompressed sizes are exact.",
+ "out": "../sheets/frame-size-all-formats-sheet.png",
+ "kicker": "TEST 100  -  5x 1:1  -  HUFFMAN TABLES",
+ "headline": "Same frame, every format: the Navy 10-bit table is 27% smaller than Canon's",
+ "kpis": [
+  [
+   "Navy 10-bit table",
+   "3.27 MB",
+   "-26.9% vs Canon, bit-exact"
+  ],
+  [
+   "Navy 12-bit table",
+   "4.82 MB",
+   "-2.4% vs Canon, bit-exact"
+  ],
+  [
+   "Recorded",
+   "24.000 fps",
+   "12-bit lossless, CF + SD"
+  ]
+ ]
+}

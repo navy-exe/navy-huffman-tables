@@ -1,0 +1,63 @@
+{
+ "title": "Canon 7D Mark II, Magic Lantern 5x 1:1 lossless RAW: three real frames",
+ "tag": "TESTS 97b / 100  /  2026-11-24",
+ "block": {
+  "type": "table",
+  "title": "Size vs Canon table, same frame per row",
+  "columns": [
+   "Frame",
+   "12-bit Canon",
+   "Navy 12-bit",
+   "10-bit Canon",
+   "Navy 10-bit"
+  ],
+  "rows": [
+   [
+    "Indoor, darker (RC0140)",
+    "4.59 MB",
+    "3.71 MB  -19.3%",
+    "4.27 MB",
+    "2.33 MB  -45.4%"
+   ],
+   [
+    "Balcony + railing (RC0141)",
+    "4.73 MB",
+    "4.26 MB  -9.8%",
+    "4.39 MB",
+    "2.78 MB  -36.8%"
+   ],
+   [
+    "Balcony, sharp detail (RC0142)",
+    "4.94 MB",
+    "4.82 MB  -2.4%",
+    "4.48 MB",
+    "3.27 MB  -26.9%"
+   ]
+  ],
+  "highlight_rows": [
+   2
+  ]
+ },
+ "specs": [
+  [
+   "Frame",
+   "3872 x 1348, 5x 1:1"
+  ],
+  [
+   "12-bit sizes",
+   "camera table test, bit-exact"
+  ],
+  [
+   "10-bit sizes",
+   "camera-encoder model"
+  ],
+  [
+   "Takeaway",
+   "Navy 10-bit wins on every frame"
+  ]
+ ],
+ "note": "Template example (table block).",
+ "out": "../sheets/example-table-sheet.png",
+ "kicker": "TESTS 97b / 100  -  HUFFMAN TABLES",
+ "headline": "Navy 10-bit table wins on every real frame; 12-bit gains shrink with detail"
+}
